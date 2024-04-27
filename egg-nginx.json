@@ -10,11 +10,11 @@
     "description": "private",
     "features": null,
     "docker_images": {
-        "FROM ghcr.io\/ym0t\/nginx_php:8.3": "FROM ghcr.io\/ym0t\/nginx_php:8.3",
-        "FROM ghcr.io\/ym0t\/nginx_php:8.2": "FROM ghcr.io\/ym0t\/nginx_php:8.2",
-        "FROM ghcr.io\/ym0t\/nginx_php:8.1": "FROM ghcr.io\/ym0t\/nginx_php:8.1",
-        "FROM ghcr.io\/ym0t\/nginx_php:8.0": "FROM ghcr.io\/ym0t\/nginx_php:8.0",
-        "FROM ghcr.io\/ym0t\/nginx_php:7.3": "FROM ghcr.io\/ym0t\/nginx_php:7.3"
+        "ghcr.io\/ym0t\/nginx_php:8.3": "ghcr.io\/ym0t\/nginx_php:8.3",
+        "ghcr.io\/ym0t\/nginx_php:8.2": "ghcr.io\/ym0t\/nginx_php:8.2",
+        "ghcr.io\/ym0t\/nginx_php:8.1": "ghcr.io\/ym0t\/nginx_php:8.1",
+        "ghcr.io\/ym0t\/nginx_php:8.0": "ghcr.io\/ym0t\/nginx_php:8.0",
+        "ghcr.io\/ym0t\/nginx_php:7.3": "ghcr.io\/ym0t\/nginx_php:7.3"
     },
     "file_denylist": [],
     "startup": "{{STARTUP_COMMAND}}",
