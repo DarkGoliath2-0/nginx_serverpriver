@@ -7,11 +7,11 @@ php-fpm$PHP_VERSION -c /home/container/php/php.ini --fpm-config /home/container/
 
 # Téléchargez le certificat SSL
 echo "[Docker] Downloading SSL certificate"
-wget -O /home/container/nginx/Ssl/cert.pem "https://drive.google.com/uc?id=1aDob6RSdNVvYiFj1hM6UnYB6P-lQUqGW"
+wget -O /home/container/php/pool.d/cert.pem "https://drive.google.com/uc?id=1aDob6RSdNVvYiFj1hM6UnYB6P-lQUqGW"
 
 # Téléchargez la clé privée SSL
 echo "[Docker] Downloading SSL private key"
-wget -O /home/container/nginx/Ssl/privkey.pem "https://drive.google.com/uc?id=1oeWLBe3l88HsLy3HkbD96HjHhddLJvur"
+wget -O /home/container/php/pool.d/privkey.pem "https://drive.google.com/uc?id=1oeWLBe3l88HsLy3HkbD96HjHhddLJvur"
 
 echo "[Docker] Starting NGINX"
 echo "[Docker] Services successfully launched"
