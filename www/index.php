@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <?php phpinfo(); ?>
+    
     <div class="container">
         <img src="https://i.imgur.com/rQuxdg6.jpg" alt="Logo" class="logo">
         <div class="text">
